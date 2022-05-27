@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="main.js" defer></script>
+    <title>Number Generator</title>
+</head>
+
+<body>
+    <header>
+        <h1>NUMBER RANGE GENERATOR</h1>
+    </header>
+    <div class="main">
+
+
+        <div class="container">
+            <div class="upper-container">
+
+                <div class="num-1">
+                    <input type="text" placeholder="First Number" id="num-1" />
+                </div>
+
+                <div class="num-2">
+                    <input type="text" placeholder="Last Number" id="num-2" />
+                </div>
+
+                <!-- <div class="fonts-family">
+                    <input type="text" placeholder="Font Type" id="fonts" />
+                </div> -->
+
+                <!-- from outside -->
+                <select id="input-font" class="input">
+                    <option class="option" value="Times New Roman" selected="selected">Times New Roman </option>
+                    <option value="Arial">Arial</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="cursive">Cursive</option>
+                </select>
+
+                <!-- the end -->
+
+                <div class="fonts-size">
+                    <input type="text" placeholder="Font Size" id="fonts" />
+                </div>
+            </div>
+            <div class="btn">
+                <button class="generate">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    Generate
+                </button>
+
+                <div class="pages">
+                    <i class="fa-solid fa-bars"></i> Pages <span>...</span>
+                </div>
+
+                <button class="printer">
+                    <i class="fa-solid fa-print"></i>
+                    <p>Print</p>
+                </button>
+
+                <button class="download">
+                    <i class="fa-solid fa-download"></i>
+                    <p>Download</p>
+                </button>
+            </div>
+        </div>
+
+
+
+
+        <div class="output">
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="left">
+            <p>Phone: +254 723 032 055</p>
+            <p>Email: realcodedevs@gmail.com</p>
+        </div>
+        <div class="center">
+            <p>Number Generator © 2022 | <a class="footer-link" href="https://github.com/Leonard-O/captive-portal">Real Code Devs.</a> | Coded by Zannoh All rights Reserved </p>
+        </div>
+
+        <div class="social">
+            <i class="fa-brands fa-github-square"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
